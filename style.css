@@ -1,0 +1,51 @@
+body{
+    background-color: lightgrey;
+    margin: auto;
+    width: 50%;
+    
+}
+.heading{
+    text-align: center;
+}
+.balance{
+    font-size: 30px;
+    font-weight: bold;
+}
+td, th{
+    border: none;
+    margin: 10px;
+    padding: 14px;
+    text-align: center;
+}
+tr{
+    border: 2px solid black;
+}
+table{
+    background-color: white;
+    font-size: 20px;
+    width: 70%;
+}
+.income{
+    color: green;
+}
+.expense{
+    color: red;
+}
+#history{
+    border-bottom: 2px solid black;
+    width: 70%;
+}
+#btn{
+    background-color: cyan;
+    color: white;
+    width: 70%;
+    font-size: 30px;
+    display: block;
+    margin-top: 20px;
+}
+#text, #amount{
+    height: 15px;
+    width: 70%;
+    font-size: 20px;
+    padding: 10px;
+}
